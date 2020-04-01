@@ -1,0 +1,7 @@
+x=input()
+st=eval(input())
+m=set()
+for u in st:
+  if x==u[0:len(x)]:
+    m.add(u)
+print(m)
